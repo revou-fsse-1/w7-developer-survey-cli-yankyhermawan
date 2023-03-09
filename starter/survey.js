@@ -55,7 +55,7 @@ const questions = [
 	{
 		name: "desiredSalary",
 		message: "What is your desired salary?",
-		type: "input",
+		type: "number",
 		validate(answer) {
 			if (validateInteger(answer) == false) {
 				if (answer > 400000000) {
