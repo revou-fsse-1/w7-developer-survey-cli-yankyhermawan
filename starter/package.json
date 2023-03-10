@@ -11,6 +11,5 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^9.1.4",
-    "type": "module"
   }
 }
